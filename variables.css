@@ -1,0 +1,50 @@
+* {
+    /* Color Palette */
+    --accent-color: #FEBD2F;
+    --background-color: #F5F3EF;
+    --button-nav-color: #FFFFFF;
+    --button-courses-background-color: #FFFFFF;
+    --button-nav-background-color: #000000;
+    --card-color: #FFFFFF;
+    --outline-color: #DCDCDC;
+    --text-primary-color: #000000;
+    --text-secondary-color: #646464;
+
+    /* Margin & Padding */
+    --button-courses-padding: 10px 24px;
+    --button-courses-tablet-padding: 6px 24px;
+    --button-nav-padding: 14px 24px;
+    --left-and-right-page-margin: 80px;
+    --left-and-right-mobile-page-margin: 24px;
+    --left-and-right-tablet-page-margin: 40px;
+
+    /* Font Family */
+    --button-font-family: 'Roboto', sans-serif;
+    --h-font-family: 'Roboto Serif', serif;
+    --p-font-family: 'Roboto', sans-serif;
+    
+    /* Font Size */
+    --button-courses-font-size: 18px;
+    --button-courses-tablet-font-size: 16px;
+    --button-nav-font-size: 16px;
+    --h1-font-size: 64px;
+    --h1-mobile-font-size: 36px;
+    --h1-tablet-font-size: 48px;
+    --h2-font-size: 40px;
+    --h2-mobile-font-size: 24px;
+    --h2-tablet-font-size: 32px;
+    --h3-font-size: 24px;
+    --h3-tablet-font-size: 20px;
+    --p1-font-size: 24px;
+    --p1-mobile-size: 18px;
+    --p1-tablet-size: 20px;
+    --p2-font-size: 18px;
+    --p2-tablet-font-size: 16px;
+
+    /* Font Weight */
+    --anchor-font-weight: 500;
+    --button-courses-font-weight: 500;
+    --h1-font-weight: 500;
+    --h2-font-weight: 500;
+    --h3-font-weight: 700;
+}

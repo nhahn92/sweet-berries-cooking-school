@@ -1,0 +1,152 @@
+/****** PAGE-WIDE DEFAULTS ******/
+a {
+    color: var(--text-primary-color);
+    font-weight: var(--anchor-font-weight);
+    text-decoration: none;
+}
+
+h1, h2, h3 {
+    font-family: var(--h-font-family);
+}
+
+h1 {
+    font-size: var(--h1-font-size);
+    font-weight: var(--h1-font-weight);
+}
+
+h2 {
+    font-size: var(--h2-font-size);
+    font-weight: var(--h2-font-weight);
+}
+
+h3 {
+    font-size: var(--h3-font-size);
+    font-weight: var(--h3-font-weight);
+}
+
+a, p {
+    font-family: var(--p-font-family);
+    font-size: var(--p2-font-size);
+    line-height: 156%;
+}
+
+button {
+    border: none;
+    border-radius: 28px;
+    font-family: var(--button-font-family);
+    width: fit-content;
+}
+
+/****** TOP NAVIGATION BAR ******/
+/* [Top Navigation Bar] Container */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    margin: 0 var(--left-and-right-page-margin);
+    padding: 26px 0;
+}
+
+/* [Top Navigation Bar] Left Anchor Container */
+nav >:first-child {
+    display: flex;
+    justify-content: space-between;
+
+    width: 200px;
+}
+
+/* [Top Navigation Bar] Button - "Get Started" */
+nav button {
+    background-color: var(--button-nav-background-color);
+    color: var(--button-nav-color);
+    font-size: var(--button-nav-font-size);
+    padding: var(--button-nav-padding);
+}
+
+/* [Top Navigation Bar] Hamburger Menu Icon */
+nav >:last-child {
+display: none;
+}
+
+/****** BANNER ******/
+/* [Banner] Container */
+main >:nth-child(1) {
+    display: grid;
+    column-gap: 80px;
+    grid-template-columns: auto auto;
+
+    margin: 100px var(--left-and-right-page-margin) 120px var(--left-and-right-page-margin);
+}
+
+/* [Banner] H1 & Paragraph Text Container */
+main >:nth-child(1) >:nth-child(1) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* [Banner] Paragraph Text - "All our courses are designed..." */
+main >:nth-child(1) >:nth-child(1) p {
+    font-size: var(--p1-font-size);
+    margin-top: 32px;
+}
+
+/* [Banner] Alternate Tablet-View Image */
+main >:nth-child(1) >:nth-child(3) {
+    display: none;
+}
+
+/****** COOKING COURSES SECTION ******/
+/* [Cooking Courses Section] Container */
+main >:nth-child(2) {
+    display: grid;
+    gap: 80px 40px;
+    grid-template-columns: auto auto auto;
+
+    margin: 0 var(--left-and-right-page-margin);
+}
+
+/* [Cooking Courses Section] Card Containers */
+.course-card-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+    height: 324px;
+    padding: 0 40px;
+
+    position: relative;
+}
+
+/* [Cooking Courses Section] First Card Container */
+main >:nth-child(2) >:first-child {
+    background-color: var(--accent-color);
+    border-radius: 40px;
+    justify-content: start;
+    padding-top: 40px;
+}
+
+/* [Cooking Courses Section] Card Icons - Knife, Cooking Pot, Clipboard, Leaf, Hamburger */
+.course-card-container img {
+    position: absolute;
+    right: 8%;
+    top: -14%;
+}
+
+/* [Cooking Courses Section] Buttons - "Get Started" */
+.course-card-container button {
+    background-color: var(--button-courses-background-color);
+    font-size: var(--button-courses-font-size);
+    font-weight: var(--button-courses-font-weight);
+    padding: var(--button-courses-padding);
+}
+
+/****** FOOTER ******/
+/* [Footer] Container */
+footer {
+    background-color: var(--accent-color);
+    margin-top: 118px;
+    padding: 24px 0;
+    text-align: center;
+}

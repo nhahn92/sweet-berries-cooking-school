@@ -1,0 +1,98 @@
+/****** Tablet View Override of index.html - Max Width of 834px ******/
+
+/****** TOP NAVIGATION BAR ******/
+/* [Top Navigation Bar] Container */
+nav {
+    margin: 0 var(--left-and-right-tablet-page-margin);
+}
+
+/* [Top Navigation Bar] Left Anchor Container */
+nav >:first-child {
+    width: 180px;
+}
+
+/****** BANNER ******/
+/* [Banner] Container */
+main >:nth-child(1) {
+    display: block;
+    text-align: center;
+    margin: 90px var(--left-and-right-tablet-page-margin) 72px var(--left-and-right-tablet-page-margin);
+}
+
+/* [Banner] H1 & Paragraph Text Container */
+main >:nth-child(1) >:nth-child(1) {
+    margin: 0 80px;
+}
+
+/* [Banner] H1 - "Discover Your Perfect..." */
+main >:nth-child(1) >:nth-child(1) h1 {
+    font-size: var(--h1-tablet-font-size);
+}
+
+/* [Banner] Paragraph Text - "All our courses are designed..." */
+main >:nth-child(1) >:nth-child(1) p {
+    font-size: var(--p1-tablet-font-size);
+    margin: 24px 0 60px 0;
+}
+
+/* [Banner] Alternate Desktop-View Image */
+main >:nth-child(1) >:nth-child(2) {
+    display: none;
+}
+
+/* [Banner] Alternate Tablet-View Image */
+main >:nth-child(1) >:nth-child(3) {
+    display: inline-block;
+}
+
+/****** COOKING COURSES SECTION ******/
+/* [Cooking Courses Section] Container */
+main >:nth-child(2) {
+    gap: 56px 24px;
+    grid-template-columns: auto auto;
+
+    margin: 0 var(--left-and-right-tablet-page-margin);
+}
+
+/* [Cooking Courses Section] Card Containers */
+.course-card-container {
+    height: 250px;
+    padding: 10px 32px;
+}
+
+/* [Cooking Courses Section] First Card Container */
+main >:nth-child(2) >:first-child {
+    border-radius: 32px;
+}
+
+/* [Cooking Courses Section] First Card H2 - "Explore our most popular..." */
+.course-card-container h2 {
+    font-size: var(--h2-tablet-font-size);
+}
+
+/* [Cooking Courses Section] Course Titles */
+.course-card-container h3 {
+    font-size: var(--h3-tablet-font-size);
+}
+
+/* [Cooking Courses Section] Course Text */
+.course-card-container p {
+    font-size: var(--p2-tablet-font-size);
+}
+
+/* [Cooking Courses Section] Card Icons - Knife, Cooking Pot, Clipboard, Leaf, Hamburger */
+.course-card-container img {
+    width: 70px;
+}
+
+/* [Cooking Courses Section] Buttons - "Get Started" */
+.course-card-container button {
+    font-size: var(--button-courses-tablet-font-size);
+    padding: var(--button-courses-tablet-padding);
+}
+
+/****** FOOTER ******/
+/* [Footer] Container */
+footer {
+    margin-top: 80px;
+}

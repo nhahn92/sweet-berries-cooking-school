@@ -1,0 +1,99 @@
+/****** Mobile View Override of index.html - Max Width of 390px ******/
+
+/****** TOP NAVIGATION BAR ******/
+/* [Top Navigation Bar] Container */
+nav {
+    justify-content: center;
+
+    margin: 0 var(--left-and-right-mobile-page-margin);
+}
+
+/* [Top Navigation Bar] Left Anchor Container */
+nav >:first-child {
+    display: none;
+}
+
+/* [Top Navigation Bar] Button - "Get Started" */
+nav button {
+    display: none;
+}
+
+/* [Top Navigation Bar] Hamburger Menu Icon */
+nav >:last-child {
+    display: block;
+
+    position: absolute;
+    right: 6%;
+    top: 3%;
+}
+
+/****** BANNER ******/
+/* [Banner] Container */
+main >:nth-child(1) {
+    display: block;
+    text-align: center;
+    margin: 32px var(--left-and-right-mobile-page-margin) 40px var(--left-and-right-mobile-page-margin);
+}
+
+/* [Banner] H1 & Paragraph Text Container */
+main >:nth-child(1) >:nth-child(1) {
+    margin: 0;
+}
+
+/* [Banner] H1 - "Discover Your Perfect..." */
+main >:nth-child(1) >:nth-child(1) h1 {
+    font-size: var(--h1-mobile-font-size);
+}
+
+/* [Banner] Paragraph Text - "All our courses are designed..." */
+main >:nth-child(1) >:nth-child(1) p {
+    font-size: var(--p1-mobile-font-size);
+    margin: 16px 0 32px 0;
+}
+
+/* [Banner] Alternate Mobile-View Image */
+main >:nth-child(1) >:nth-child(3) {
+    width: 100%;
+}
+
+/****** COOKING COURSES SECTION ******/
+/* [Cooking Courses Section] Container */
+main >:nth-child(2) {
+    grid-template-columns: auto;
+
+    margin: 0 var(--left-and-right-mobile-page-margin);
+}
+
+/* [Cooking Courses Section] Card Containers */
+.course-card-container {
+    height: 230px;
+    padding: 10px 32px;
+}
+
+/* [Cooking Courses Section] First Card Container */
+main >:nth-child(2) >:first-child {
+    border-radius: 24px;
+    height: auto;
+    padding: 24px;
+}
+
+/* [Cooking Courses Section] First Card H2 - "Explore our most popular..." */
+.course-card-container h2 {
+    font-size: var(--h2-mobile-font-size);
+}
+
+/* [Cooking Courses Section] Card Icons - Knife, Cooking Pot, Clipboard, Leaf, Hamburger */
+.course-card-container img {
+    right: -2px;
+}
+
+/****** FOOTER ******/
+/* [Footer] Container */
+footer {
+    margin-top: 60px;
+}
+
+/* [Footer] Logo */
+footer img {
+    width: 35%;
+}
