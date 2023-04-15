@@ -1,5 +1,9 @@
 /****** Mobile View Override of index.html - Max Width of 390px ******/
 
+/* Good job on hiding the regular navbar and showing the hamburger icon on smaller screen sizes.
+
+The hamburger menu is not functional. */
+
 /****** TOP NAVIGATION BAR ******/
 /* [Top Navigation Bar] Container */
 nav {
